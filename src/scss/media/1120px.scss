@@ -1,0 +1,147 @@
+@media screen and (min-width: 1120px) and (max-width:1439px) {
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 48px;
+}
+
+.header__header {
+    width: 753px;
+    height: 98px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #111;
+    margin-top: 100px;    
+}
+
+.block {    
+    margin-right: 32px;
+    height: 119px;
+    width: 320px;
+    border-radius: 16px;
+}
+
+.header__3-blocks {
+    display: flex;     
+    margin-top: 30px;
+}
+
+.range-block {
+    margin-top: 24px;
+    display: flex;
+    bottom: 5.88%;
+    background: #f3f3f4;
+    height: 68px;
+    width: auto;
+    border-radius: 16px;
+    position: relative;
+    justify-content: center;
+}
+
+#first_sum {
+    position: absolute;
+    height: 2px;
+    color: #ff9514;
+    width: 90%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    position: absolute;
+    height: 2px;
+    color: #ff9514;
+    width: 90%;
+    bottom: 0;
+    -moz-appearance: none;
+    appearance: none;
+    background: #ff9514;
+    display: flex;
+    justify-content: center;
+}
+
+
+.value-range {
+    right: 20px;
+    top: 10px;
+    left: 0;
+}
+
+#value-range-pay {
+    font-family: Nekst-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: right;
+    color: #575757;
+    flex-direction: row;
+    padding: 15px 17px;
+    gap: 10px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 11px;
+    top: 11px;
+    background: #ebebec;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__sum_link {  
+    width: auto;   
+}
+
+.sum-agreement-lising {
+    height: 36px;
+    right: 185px;
+    top: 15px;
+    font-family: Nekst-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #575757;
+    position: absolute;
+}
+
+.sum-agreement-payment {
+    height: 36px;
+    right: 265px;
+    top: 15px;
+    font-family: Nekst-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #575757;
+    position: absolute;
+}
+
+.sum-agreement-time {
+    height: 36px;
+    right: 265px;
+    top: 14px;
+    font-family: Nekst-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #575757;
+    position: absolute;
+}
+
+
+}
+
+

@@ -1,0 +1,53 @@
+
+<div class="header">
+  <div class="header__header">Рассчитайте стоимость автомобиля в лизинг</div>
+  <div class="header__3-blocks"> 
+    <div class="block">
+      <div class="name">Стоимость автомобиля</div>
+      <div class="name--mobile">Желаемая сумма кредита</div>
+      <div class="range-block"> 
+        <input type="range" id="cost_car" min="0" max="5000000" value="4467313" oninput="Calculate()"/>
+        <p id="value-range-sum">₽.</p>
+        <div class="sum-agreement-lising"> </div>
+      </div>
+      <div class="block__sum"> 
+        <div class="block__sum_header">Сумма договора лизинга</div>
+        <div class="block__sum_sum">4 467 313 ₽</div>
+      </div>
+    </div>
+    <div class="block">
+      <div class="name">Первоначальный взнос</div>
+      <div class="name--mobile">Первоначальный взнос</div>
+      <div class="range-block"> 
+        <input type="range" id="first_sum" min="0" max="50" value="15" oninput="Calculate()"/>
+        <p id="value-range-pay">13%</p>
+        <div class="sum-agreement-payment"> </div>
+      </div>
+      <div class="block__sum"> 
+        <div class="block__sum_header">Ежемесячный платеж от</div>
+        <div class="block__sum_month">114 455 ₽</div>
+      </div>
+    </div>
+    <div class="block">
+      <div class="name">Срок лизинга</div>
+      <div class="name--mobile">Срок лизинга</div>
+      <div class="range-block"> 
+        <input type="range" id="time-during-lising" min="1" max="90" value="60" oninput="Calculate()"/>
+        <p id="value-range-time">мес.</p>
+        <div class="sum-agreement-time"> </div>
+      </div>
+      <div class="block__sum">      
+        <div class="block__sum_link">Оставить заявку</div>
+      </div>
+    </div>
+    <div class="sum-agreement--mobile">
+      <div class="sum-agreement">Сумма договора лизинга</div>
+      <div class="sum-agreement-number">4 467 313 ₽ </div>
+    </div>
+    <div class="payment-month--mobile">
+      <div class="sum-month">Ежемесячный платеж от</div>
+      <div class="sum-month-number">114 455 ₽ </div>
+    </div>
+    <div class="block__sum_link--mobile">Оставить заявку</div>
+  </div>
+</div>

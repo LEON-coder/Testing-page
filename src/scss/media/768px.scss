@@ -1,0 +1,183 @@
+@media screen and (min-width: 768px) and (max-width:1119px) { 
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.header__header {
+    width: auto;
+    font-size: 44px;
+    margin-top: 30px;
+    padding-left: 36px;
+}
+
+
+.header__3-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 696px;
+}
+
+.block {
+    margin-top: 19px;
+    height: auto;
+    width: 100%;
+    margin-right: 0;
+}
+
+
+.block__sum_header {
+    width: auto;
+    height: 24px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #575757;
+}
+
+.block__sum {
+    margin-top: 44px;
+    display: none;
+}
+
+.block__sum_sum {   
+    margin-top: 10px;
+}
+
+.block__sum_month {
+    display: flex;
+}
+
+.block:nth-child(2), .block:nth-child(3) {
+    margin-top: 40px;
+}
+
+.name {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    color: #575757;
+}
+
+.range-block {
+    margin-top: 35px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#value-range-pay {
+    font-family: Nekst-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: right;
+    color: #575757;
+    flex-direction: row;
+    padding: 15px 17px;
+    gap: 10px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 11px;
+    top: 11px;
+    background: #ebebec;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__sum_link {   
+    margin-bottom: 100px;
+}
+
+.sum-agreement--mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
+
+.sum-agreement {
+    width: 191px;
+    height: 24px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333;
+    display: flex;
+}
+
+.sum-agreement-number {
+    display: flex;
+    width: 279px;
+    height: 49px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #333333;
+}
+
+.payment-month--mobile {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333;
+    display: flex;
+    margin-top: 37px;
+    margin-left: 85px;
+    flex-direction: column;
+    width: 279px;
+}
+
+.block__sum_link--mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 12px;
+    gap: 10px;
+    width: 426px;
+    height: 68px;
+    background: #ff9514;
+    border-radius: 40px;
+    font-family: Nekst-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 44px;
+}
+
+.sum-month-number {
+    display: flex;
+    width: 229px;
+    height: 49px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #333333;
+}  
+}

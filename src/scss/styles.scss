@@ -1,0 +1,19 @@
+@import url(../scss/partials/header.scss);
+@import url(../scss/media/1440px.scss);
+@import url(../scss/media/1120px.scss);
+@import url(../scss/media/768px.scss);
+@import url(../scss/media/320px.scss);
+
+
+
+body {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

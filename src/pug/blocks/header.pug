@@ -1,0 +1,42 @@
+.header
+  .header__header Рассчитайте стоимость автомобиля в лизинг
+  .header__3-blocks 
+   .block
+    .name Стоимость автомобиля
+    .name--mobile Желаемая сумма кредита
+    .range-block 
+     input(type="range" id="cost_car" min="0" max="5000000" value="4467313"  oninput="Calculate()")
+     p#value-range-sum ₽.
+     .sum-agreement-lising 
+    .block__sum 
+     .block__sum_header Сумма договора лизинга
+     .block__sum_sum 4 467 313 ₽
+     
+   .block
+    .name Первоначальный взнос
+    .name--mobile Первоначальный взнос
+    .range-block 
+     input(type="range" id="first_sum" min="0" max="50" value="15"  oninput="Calculate()")
+     p#value-range-pay 13%
+     .sum-agreement-payment 
+    .block__sum 
+     .block__sum_header Ежемесячный платеж от
+     .block__sum_month 114 455 ₽
+   .block
+    .name Срок лизинга
+    .name--mobile Срок лизинга
+    .range-block 
+     input(type="range" id="time-during-lising" min="1" max="90" value="60"  oninput="Calculate()")
+     p#value-range-time мес.
+     .sum-agreement-time 
+    .block__sum       
+     .block__sum_link Оставить заявку
+
+   .sum-agreement--mobile
+    .sum-agreement Сумма договора лизинга
+    .sum-agreement-number 4 467 313 ₽ 
+   .payment-month--mobile
+    .sum-month Ежемесячный платеж от
+    .sum-month-number 114 455 ₽ 
+
+   .block__sum_link--mobile Оставить заявку
